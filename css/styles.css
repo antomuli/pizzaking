@@ -24,3 +24,11 @@
 #about-us {
     min-height: 300px;
 }
+
+.card {
+    border: none;
+}
+
+.card-footer {
+    background: none;
+}
