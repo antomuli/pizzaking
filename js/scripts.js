@@ -31,16 +31,13 @@ Address.prototype.fullAddress = function() {
 
     $(window).scroll(function () {
         var st = $(this).scrollTop();
-        // Scroll down
         if (st > lastScrollTop) {
             navbar.fadeIn();
             navbar.removeClass('navbar-dark bg-transparent').addClass('navbar-light bg-custom');
         } 
-        // Scroll up but still lower than 200 (change that to whatever suits your need)
         else if(st < lastScrollTop && st > 200) {
             navbar.removeClass('navbar-dark bg-transparent').addClass('navbar-light bg-custom');
         }
-        // Reached top
         else {
             navbar.removeClass('navbar-light bg-custom').addClass('navbar-dark bg-transparent');
         }
