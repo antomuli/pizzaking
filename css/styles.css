@@ -52,3 +52,8 @@ body {
 .padding {
     padding: 0 1.7rem 0 0.75rem;
 }
+
+.border {
+    border-radius: 15px;
+    border: red solid 1px !important;
+}
