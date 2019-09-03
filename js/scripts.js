@@ -1,3 +1,28 @@
+// Business Logic
+
+let total = 0;
+function Order(name,size, crust, toppings, total) {
+    this.name = name;
+    this.size = size;
+    this.crust = crust;
+    this.toppings = toppings;
+    this.total = total;
+};
+
+function Address(house, road, city) {
+    this.house = house;
+    this.road = road;
+    this.city = city;
+
+};
+
+Address.prototype.fullAddress = function() {
+    return this.house + ", " + this.road + ", " + this.city;
+};
+
+
+// User Logic
+
 // Navbar Transparent
 (function ($) {
 
