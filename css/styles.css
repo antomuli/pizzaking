@@ -1,0 +1,22 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Set your background color */
+.bg-custom {
+    background-color: #333
+}
+/* Transition effect */
+.navbar {
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.bg-transparent {
+    background: transparent;
+}
